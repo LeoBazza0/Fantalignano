@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" />
+
+</head>
+
+<body style="background-color: #c9f8fd;">
+
+    <div class="bonus-change">
+
+        <!-- pulsante per tornare alla adminhome -->
+        <a href="adminhome.html">
+            <img src="img/IconBlue.png" alt="Icona" class="icon">
+        </a>
+
+
+
+        <input type="text" id="giocatoreInput" placeholder="inserisci giocatore"
+            class=" inserisci-admingiocatoreB-wrapper">
+
+        <div class="scegli-bonus-da-aggiungere-wrapper"> <!-- da far funzionare questo, trovare il modo -->
+            <div class="scegli-bonus-da-container">
+                <p class="scegli-bonus">scegli bonus </p>
+                <p class="scegli-bonus">da aggiungere</p>
+            </div>
+        </div>
+
+        <button class=" modifica-adminbonus-wrapper">modifica </button>
+
+        <div class="spero-tu-non">spero tu non stia barando...</div>
+
+    </div>
+
+
+
+
+    <script>
+        document.querySelector('.modifica-bonus-wrapper').addEventListener('click', function () {
+            // qui il codice che vuoi eseguire quando clicchi
+            console.log('Hai cliccato Modifica!'); // questo quello che appare in console quando premi
+        });
+
+
+    </script>
+</body>
+
+</html>

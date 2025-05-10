@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" />
+
+</head>
+
+<body style="background-color: #c9f8fd;">
+
+    <div class="malus-change">
+        <div class="malus-change-child">
+        </div>
+
+        <!-- pulsante per tornare alla adminhome -->
+        <a href="adminhome.html">
+            <img src="img/IconRed.png" alt="Icona" class="icon">
+        </a>
+
+        <input type="text" id="giocatoreInput" placeholder="inserisci giocatore"
+            class="inserisci-admingiocatoreM-wrapper">
+
+        <div class="scegli-malus-da-aggiungere-wrapper"> <!-- da far funzionare questo, trovare il modo -->
+            <div class="scegli-malus-da-container">
+                <p class="scegli-malus">scegli malus </p>
+                <p class="scegli-malus">da aggiungere</p>
+            </div>
+        </div>
+
+        <button class=" modifica-adminmalus-wrapper">modifica </button>
+
+        <div class="ma-sei-davvero">ma sei davvero così scarso o è solo una brutta settimana ? </div>
+    </div>
+
+
+
+
+    <script>
+        var iNDIETRO = document.getElementById("iNDIETRO");
+        if (iNDIETRO) {
+            iNDIETRO.addEventListener("click", function (e) {
+                // Add your code here
+            });
+        }
+
+        var icon = document.getElementById("icon");
+        if (icon) {
+            icon.addEventListener("click", function (e) {
+                // Add your code here
+            });
+        }
+    </script>
+</body>
+
+</html>

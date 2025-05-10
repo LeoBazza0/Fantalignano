@@ -1,0 +1,1520 @@
+body {
+    block-size: 100%;
+
+    margin: 0;
+    line-height: normal;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    min-block-size: 100%;
+    overflow-y: auto;
+}
+
+/* font1 UE BOSS */
+@font-face {
+    font-family: 'ClimateCrisis-Regular-VariableFont_YEAR';
+    src: url(fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf);
+    src: local('fonts/ClimateCrisis-Regular-VariableFont_YEAR'), url('fonts/ClimateCrisis-Regular-VariableFont_YEAR.ttf') format('truetype');
+}
+
+/* font2 PARTITA */
+@font-face {
+    font-family: 'Poppins-Medium';
+    src: url(fonts/Poppins-Medium.ttf);
+    src: local('fonts/Poppins-Medium'), url('fonts/Poppins-Medium.ttf') format('truetype');
+}
+
+/* font3 REGOLAMENTO */
+@font-face {
+    font-family: 'Gluten-SemiBold';
+    src: url(fonts/Gluten-SemiBold.ttf);
+    src: local('fonts/Gluten-SemiBold.ttf'), url('fonts/Gluten-SemiBold.ttf') format('truetype');
+}
+
+.font1 {
+    font-family: 'ClimateCrisis-Regular-VariableFont_YEAR', sans-serif;
+}
+
+.font2 {
+    font-family: 'Poppins-Medium', sans-serif;
+}
+
+.font3 {
+    font-family: 'Gluten-SemiBold', sans-serif;
+}
+
+.color1 {
+    color: #1071CE;
+}
+
+.color2 {
+    color: #ffd23e;
+}
+
+.color3 {
+    color: #c9f8fd;
+}
+
+.no.overflow {
+    overflow: hidden;
+}
+
+/* index.html START - - - - - - - - - - - - - - */
+.pic1-position {
+    position: absolute;
+    inset-block-start: 233px;
+    inset-inline-start: calc(50% - 55px);
+    inline-size: 144.7px;
+    block-size: 220px;
+    object-fit: cover;
+}
+
+/* entra come moderatore */
+.ecm {
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+/* entra come moderatore */
+.ecm-wrapper {
+    position: absolute;
+    inset-block-start: 462px;
+    inset-inline-start: calc(50% - 116px);
+    border-radius: 22.02px;
+    border: 3px solid #1071ce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6.5px 21.4px;
+    cursor: pointer;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+.regolamento-wrapper {
+    position: absolute;
+    inset-block-start: 515px;
+    inset-inline-start: calc(50% - 111.5px);
+    border-radius: 31.51px;
+    border: 3px solid #1071ce;
+    background-color: #1071ce;
+    color: white !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 9.3px 30.6px;
+    cursor: pointer;
+    font-size: 23.9px;
+    cursor: pointer;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.partita {
+    position: absolute;
+    inset-block-start: 16px;
+    inset-inline-start: 47px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.partita-wrapper {
+    position: absolute;
+    inset-block-start: 585px;
+    inset-inline-start: calc(50% - 136.92px);
+    border-radius: 54.17px;
+    background-color: #ffd23e;
+    border: 3px solid #ffd23e;
+    box-sizing: border-box;
+    inline-size: 275px;
+    block-size: 94px;
+    cursor: pointer;
+    font-size: 41.1px;
+    color: #ea3928;
+}
+
+.benvenuto-al-text {
+    position: absolute;
+    inset-block-start: 130.08px;
+    align-items: center;
+    inline-size: 236.9px;
+    block-size: 18.6px;
+    color: #002651;
+    font-size: 25px;
+}
+
+.image-1-icon {
+    position: absolute;
+    inset-block-start: 159px;
+    align-items: center;
+    inline-size: 272px;
+    block-size: 90px;
+    object-fit: cover;
+}
+
+/* - - - - - - - - PIGNE START - - - - - - - -*/
+
+/*index*/
+.cone-icon0 {
+    position: absolute;
+    inset-block-start: -49px;
+    inset-inline-start: -5px;
+    inline-size: 151.3px;
+    block-size: 133.9px;
+    object-fit: contain;
+}
+
+.cone-icon1 {
+    position: absolute;
+    inset-block-start: -52px;
+    inset-inline-end: -40px;
+    inline-size: 179.2px;
+    block-size: 193px;
+    object-fit: contain;
+}
+
+.cone-icon2 {
+    position: absolute;
+    inset-block-start: 281.22px;
+    inset-inline-start: -87.19px;
+    inline-size: 204.7px;
+    block-size: 159.8px;
+    object-fit: contain;
+}
+
+.cone-icon3 {
+    position: absolute;
+    inset-block-end: -64px;
+    inset-inline-start: -48px;
+    inline-size: 215.9px;
+    block-size: 216.3px;
+    object-fit: contain;
+}
+
+.cone-icon4 {
+    position: absolute;
+    inset-block-end: -85px;
+    inset-inline-end: -30px;
+    inline-size: 162.5px;
+    block-size: 163.6px;
+    object-fit: contain;
+}
+
+.cone-icon5 {
+    position: absolute;
+    inset-block-start: 332px;
+    inset-inline-end: -30px;
+    inline-size: 118.7px;
+    block-size: 105.9px;
+    object-fit: contain;
+}
+
+/*classifica*/
+.cone-icon6 {
+    position: absolute;
+    inset-block-start: -32px;
+    inset-inline-end: -30px;
+    inline-size: 113.2px;
+    block-size: 139.7px;
+    object-fit: contain;
+}
+
+/*regolamento*/
+.cone-icon7 {
+    position: absolute;
+    inset-block-start: -48.62px;
+    inset-inline-end: -120px;
+    inline-size: 261.5px;
+    block-size: 226.2px;
+    object-fit: contain;
+}
+
+.cone-icon8 {
+    position: absolute;
+    inset-block-start: 697px;
+    inset-inline-start: -85px;
+    inline-size: 215.9px;
+    block-size: 216.3px;
+    object-fit: contain;
+}
+
+.cone-icon9 {
+    position: absolute;
+    inset-block-start: 89.17px;
+    inset-inline-start: -61.98px;
+    inline-size: 233.4px;
+    block-size: 263.9px;
+    object-fit: contain;
+}
+
+.cone-icon10 {
+    position: absolute;
+    inset-block-end: -37px;
+    inset-inline-end: -140px;
+    inline-size: 261.5px;
+    block-size: 226.2px;
+    object-fit: contain;
+}
+
+/* contatti */
+.cone-icon11 {
+    position: absolute;
+    inset-block-start: -37px;
+    inset-inline-end: -140px;
+    inline-size: 261.5px;
+    block-size: 226.2px;
+    object-fit: contain;
+}
+
+.cone-icon12 {
+    position: absolute;
+    inset-block-end: -37px;
+    inset-inline-start: -140px;
+    inline-size: 261.5px;
+    block-size: 226.2px;
+    object-fit: contain;
+}
+
+/*adminendplayer*/
+.cone-icon13 {
+    position: absolute;
+    inset-block-start: 630.09px;
+    inset-inline-start: -105px;
+    inline-size: 269px;
+    block-size: 219.5px;
+    object-fit: contain;
+}
+
+.cone-icon14 {
+    position: absolute;
+    inset-block-start: -70px;
+    inset-inline-end: -111px;
+    inline-size: 276px;
+    block-size: 262.3px;
+    object-fit: contain;
+}
+
+/* - - - - - - - - PIGNE END - - - - - - - -*/
+
+.a-tuo-rischio {
+    position: absolute;
+    inset-block-start: 685px;
+    inset-inline-start: calc(50%- 40px);
+    font-size: 9.62px;
+    text-transform: lowercase;
+    color: #000;
+}
+
+.icon {
+    position: absolute;
+    block-size: 70px;
+    inline-size: 70px;
+    inset-block-start: 45px;
+    inset-inline-start: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.classifica-wrapper {
+    position: absolute;
+    inset-block-start: 45px;
+    inset-inline-start: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.aggiungi-giocatore {
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.classifica-item {
+    position: absolute;
+    inset-block-start: 174px;
+    inset-inline-start: calc(50% - 165.5px);
+    border-radius: 34px;
+    background-color: #fff;
+    border: 3px solid #1071ce;
+    box-sizing: border-box;
+    inline-size: 167px;
+    block-size: 39px;
+}
+
+/* TODO */
+.container {
+    display: flex;
+    margin-block-start: 130px;
+    /* block-size: 70%; */
+}
+
+.nomeg {
+    flex: 2;
+    padding: 16px;
+}
+
+.puntidiv {
+    flex: 1;
+    padding: 16px;
+}
+
+.aggiungi-giocatore-wrapper {
+    inline-size: calc(100%-32px);
+    margin: 0 16px;
+    border-radius: 34px;
+    border: 3px solid #1071ce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+    color: black;
+    background-color: transparent;
+}
+
+.nomegcaselle {
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    background-color: #fff;
+    border: 3px solid #1071ce;
+    box-sizing: border-box;
+    inline-size: 100%;
+    block-size: 39px;
+    margin-block-start: 5px;
+}
+
+.punticaselle {
+    position: relative;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    background-color: #ffd23e;
+    inline-size: 100%;
+    block-size: 39px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #002651;
+    margin-block-start: 5px;
+
+}
+
+.indietro {
+    position: absolute;
+    inset-block-start: 51px;
+    inset-inline-start: 29px;
+    inline-size: 51px;
+    block-size: 48px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.wrapper {
+    position: absolute;
+    inset-block-start: 174px;
+    inset-inline-start: 222px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 34px;
+    background-color: #ffd23e;
+    inline-size: 108px;
+    block-size: 39px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color: #002651;
+}
+
+
+.classifica {
+    inline-size: 100%;
+    position: relative;
+    background-color: #d4f9fd;
+    block-size: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25.79px;
+    color: #000;
+    font-family: Poppins;
+}
+
+.mod-child {
+    position: absolute;
+    inset-block-start: 106px;
+    inset-inline-start: 60px;
+    inline-size: 20px;
+    block-size: 43px;
+}
+
+.icon1 {
+    position: absolute;
+    block-size: 4.69%;
+    inline-size: 10.18%;
+    inset-block-start: 74.18%;
+    inset-inline-end: 44.78%;
+    inset-block-end: 21.13%;
+    inset-inline-start: 45.04%;
+    max-inline-size: 100%;
+    overflow: hidden;
+    max-block-size: 100%;
+    object-fit: contain;
+    cursor: pointer;
+}
+
+/* password.html START - - - - - - - - - */
+.pw-text {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.pw-text-container {
+    position: absolute;
+    text-transform: lowercase;
+    margin: 0;
+    font-weight: 600;
+    inset-block-start: 360px;
+    inset-inline-start: calc(50% - 165px);
+}
+
+.can-of-paint {
+    position: absolute;
+    inset-block-start: 207px;
+    inset-inline-start: calc(50% - 117.5px);
+    inline-size: 235px;
+    block-size: 139px;
+    object-fit: cover;
+}
+
+.password {
+    position: absolute;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.password-wrapper {
+    position: absolute;
+    inset-block-start: 442px;
+    display: flex;
+    justify-content: center;
+    border-radius: 34px;
+    border: 3px solid #1071ce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+    font-size: 25.79px;
+    background-color: transparent;
+    inline-size: 185px;
+
+    inset-inline-start: calc(50% - 128px);
+    color: #000000;
+}
+
+.occhio-che-se {
+    position: absolute;
+    inset-block-end: 20px;
+    inset-inline-start: calc(50% - 180px);
+    font-size: 16.7px;
+    text-transform: lowercase;
+    font-weight: 600;
+    display: inline-block;
+    inline-size: 362px;
+    block-size: 28px;
+}
+
+.no-non-puoi {
+    position: absolute;
+    inset-block-start: 508px;
+    inset-inline-start: calc(50% - 70px);
+    font-size: 11px;
+    text-transform: lowercase;
+    font-weight: 600;
+    display: inline-block;
+    inline-size: 160px;
+    block-size: 14.9px;
+}
+
+.invio-password {
+    inset-inline-start: calc(50% - 35px);
+    cursor: pointer;
+    margin-block-start: 620px;
+    block-size: 70px;
+    transform: rotate(180deg);
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+}
+
+/* password.html END - - - - - - - - - */
+
+
+
+/* adminhome.html START - - - - - - - - - */
+.ue-boss {
+    position: absolute;
+    inset-block-start: 149px;
+    inset-inline-start: calc(50% - 134.5px);
+    font-size: 46.1px;
+    text-transform: lowercase;
+    font-family: 'Climate Crisis';
+}
+
+.modifica-bonus {
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 600;
+    color: white !important;
+}
+
+.modifica-bonus-wrapper {
+    position: absolute;
+    inset-block-start: 246px;
+    inset-inline-start: calc(50% - 135.5px);
+    border-radius: 34px;
+    background-color: #1071ce;
+    border: 3px solid #1071ce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+    cursor: pointer;
+    color: white !important;
+}
+
+.modifica-malus-wrapper {
+    position: absolute;
+    inset-block-start: 322px;
+    inset-inline-start: calc(50% - 135.5px);
+    border-radius: 34px;
+    background-color: #ea3928;
+    border: 3px solid #ea3928;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+    cursor: pointer;
+    color: white !important;
+}
+
+.modifica-malus {
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 600;
+    color: white !important;
+}
+
+.elimina-partita-wrapper {
+    position: absolute;
+    inset-block-start: 398px;
+    inset-inline-start: calc(50% - 130.5px);
+    border-radius: 34px;
+    background-color: #ffd23e;
+    border: 3px solid #ffd23e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+    color: black !important;
+}
+
+.elimina-partita {
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 600;
+    color: black !important;
+}
+
+.elimina-giocatore-wrapper {
+    position: absolute;
+    inset-block-start: 474px;
+    inset-inline-start: calc(50% - 148.5px);
+    border-radius: 34px;
+    background-color: #002651;
+    border: 3px solid #002651;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+    cursor: pointer;
+    color: #73e5f0 !important;
+}
+
+.elimina-giocatore {
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 600;
+    color: #73E5F0 !important;
+}
+
+.scenasecchio-class {
+    position: absolute;
+    inset-block-start: 613px;
+    inset-inline-start: calc(50% - 122.5px);
+    inline-size: 245px;
+    block-size: 245px;
+    object-fit: cover;
+}
+
+.accesso-solo-agli {
+    position: absolute;
+    inset-block-start: 205px;
+    inset-inline-start: calc(50% - 15px);
+    font-size: 10px;
+    text-transform: lowercase;
+    font-family: Gluten;
+}
+
+.mod-menu {
+    inline-size: 100%;
+    position: relative;
+    background-color: #c9f8fd;
+    block-size: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25.79px;
+    color: #000;
+    font-family: Poppins;
+}
+
+/* adminhome.html END - - - - - - - - - */
+/* adminbonus.html END - - - - - - - - - -*/
+
+.modifica-adminbonus-wrapper {
+    position: absolute;
+    inset-block-start: 727px;
+    inset-inline-start: calc(50% - 102.5px);
+    border-radius: 34px;
+    background-color: #1071ce;
+    border: 3px solid #1071ce;
+    box-sizing: border-box;
+    inline-size: 206px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 1px;
+    text-transform: lowercase;
+    font-weight: 600;
+    color: white;
+    font-size: 26px;
+}
+
+.inserisci-admingiocatoreB-wrapper {
+    position: absolute;
+    inset-block-start: 340px;
+    inset-inline-start: calc(50% - 159.5px);
+    border-radius: 34px;
+    background-color: rgba(16, 113, 206, 0);
+    border: 3px solid #1071ce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+    color: rgba(0, 38, 81, 0.4);
+    inline-size: 242px;
+    block-size: 39px;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+.scegli-bonus {
+    margin: 0;
+}
+
+.scegli-bonus-da-container {
+    inline-size: 195px;
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 600;
+    display: inline-block;
+    block-size: 84px;
+    flex-shrink: 0;
+}
+
+.scegli-bonus-da-aggiungere-wrapper {
+    position: absolute;
+    inset-block-start: 416px;
+    inset-inline-start: calc(50% - 134.5px);
+    border-radius: 34px;
+    background-color: #1071ce;
+    border: 3px solid #1071ce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+}
+
+.scegli-bonus-da-aggiungere-container {
+    position: absolute;
+    inset-block-start: 416px;
+    inset-inline-start: calc(50% - 129.5px);
+    border-radius: 34px;
+    background-color: #1071ce;
+    border: 3px solid #1071ce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+}
+
+
+.spero-tu-non {
+    position: absolute;
+    inset-block-start: 808px;
+    inset-inline-start: calc(50% - 180.5px);
+    font-size: 16.7px;
+    text-transform: lowercase;
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    inline-size: 362px;
+    block-size: 28px;
+}
+
+.bonus-change {
+    inline-size: 100%;
+    position: relative;
+    background-color: #c9f8fd;
+    block-size: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25.79px;
+    color: #ffd23e;
+    font-family: Poppins;
+}
+
+/* adminbonus.html END - - - - - - - - - -*/
+/* adminmalus.html START - - - - - - - - - -*/
+
+.malus-change {
+    inline-size: 100%;
+    position: relative;
+    background-color: #c9f8fd;
+    block-size: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25.79px;
+    color: #fff;
+    font-family: Poppins;
+}
+
+.malus-change-child {
+    position: absolute;
+    inset-block-start: 106px;
+    inset-inline-start: 60px;
+    inline-size: 20px;
+    block-size: 43px;
+}
+
+
+.inserisci-admingiocatoreM-wrapper {
+    position: absolute;
+    inset-block-start: 346px;
+    inset-inline-start: calc(50% - 153.5px);
+    border-radius: 34px;
+    background-color: rgba(16, 113, 206, 0);
+    border: 3px solid #ea3928 !important;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+    color: rgba(0, 38, 81, 0.4);
+    text-transform: lowercase;
+    font-weight: 600;
+    inline-size: 242px;
+    block-size: 39px;
+    font-size: 26px;
+}
+
+.scegli-malus {
+    margin: 0;
+}
+
+.scegli-malus-da-container {
+    inline-size: 195px;
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 600;
+    display: inline-block;
+    block-size: 84px;
+    flex-shrink: 0;
+}
+
+.scegli-malus-da-aggiungere-wrapper {
+    position: absolute;
+    inset-block-start: 421px;
+    inset-inline-start: calc(50% - 129.5px);
+    border-radius: 34px;
+    background-color: #ea3928;
+    border: 3px solid #ea3928;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+    color: #ffd23e;
+}
+
+.modifica-adminmalus-wrapper {
+    position: absolute;
+    inset-block-start: 727px;
+    inset-inline-start: calc(50% - 102.5px);
+    border-radius: 34px;
+    background-color: #ea3928;
+    border: 3px solid #ea3928;
+    box-sizing: border-box;
+    inline-size: 206px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 1px;
+    text-transform: lowercase;
+    font-weight: 600;
+    color: white;
+    font-size: 26px;
+}
+
+.ma-sei-davvero {
+    position: absolute;
+    inset-block-start: 796px;
+    inset-inline-start: calc(50% - 144.5px);
+    font-size: 13.33px;
+    text-transform: lowercase;
+    font-weight: 600;
+    color: #000;
+    display: inline-block;
+    inline-size: 289px;
+    block-size: 22.4px;
+}
+
+/* adminmalus.html END - - - - - - - - - -*/
+/* adminendgame.html START - - - - - - - - - -*/
+
+.elimina-partita-admin {
+    inline-size: 100%;
+    position: relative;
+    background-color: #c9f8fd;
+    block-size: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 20px;
+    color: #000;
+    font-family: Poppins;
+}
+
+.prossimo-turno {
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.prossimo-turno-wrapper {
+    position: absolute;
+    inset-block-start: 426px;
+    inset-inline-start: calc(50% - 138.5px);
+    border-radius: 34px;
+    background-color: #ffd23e;
+    border: 3px solid #ffd23e;
+    box-sizing: border-box;
+    inline-size: 277px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 1px;
+    cursor: pointer;
+    font-size: 25.79px;
+    color: #1071ce;
+}
+
+.daje-che-la {
+    position: absolute;
+    inset-block-start: 382px;
+    inset-inline-start: calc(50% - 168px);
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.cos-fai-partire {
+    position: absolute;
+    inset-block-start: 492px;
+    inset-inline-start: calc(50% - 118px);
+    font-size: 10px;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.o-te-ne {
+    position: absolute;
+    inset-block-start: 544px;
+    inset-inline-start: calc(50% - 100px);
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.ci-mancherai {
+    position: absolute;
+    inset-block-start: 783px;
+    inset-inline-start: calc(50% - 78px);
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.image-1-icon-admin {
+    position: absolute;
+    inset-block-start: 153px;
+    inset-inline-start: calc(50% - 70px);
+    inline-size: 144.7px;
+    block-size: 220px;
+    object-fit: cover;
+}
+
+.elimina-partita-inner {
+    position: absolute;
+    inset-block-start: 588px;
+    inset-inline-start: 198px;
+    max-inline-size: 100%;
+    overflow: hidden;
+    block-size: 173px;
+    object-fit: contain;
+}
+
+
+
+
+/* adminendgame.html END - - - - - - - - - -*/
+/* adminendplayere.html START - - - - - - - - - -*/
+
+.elimina-admingiocatore {
+    inline-size: 100%;
+    position: relative;
+    background-color: #c9f8fd;
+    block-size: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 25.79px;
+    color: #000;
+    font-family: Poppins;
+}
+
+.elimina-dai-giochi {
+    position: relative;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.elimina-dai-giochi-wrapper {
+    position: absolute;
+    inset-block-start: 542px;
+    inset-inline-start: calc(50% - 137.5px);
+    border-radius: 34px;
+    background-color: #002651;
+    border: 3px solid #002651;
+    box-sizing: border-box;
+    inline-size: 277px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 1px;
+    color: #fff;
+    text-transform: lowercase;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.chi-ti-ha {
+    position: absolute;
+    inset-block-start: 382px;
+    inset-inline-start: calc(50% - 120px);
+    font-size: 20px;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.una-secchiata-sicuro {
+    position: absolute;
+    inset-block-start: 498px;
+    inset-inline-start: calc(50% - 150px);
+    font-size: 16.67px;
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.inserisci-admingiocatoreEP-wrapper {
+    position: absolute;
+    inset-block-start: 421px;
+    inset-inline-start: calc(50% - 153.5px);
+    border-radius: 34px;
+    background-color: rgba(16, 113, 206, 0);
+    border: 3px solid #1071ce;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 32px 10px 33px;
+    color: rgba(0, 38, 81, 0.4);
+    inline-size: 242px;
+    block-size: 39px;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.angry-icon {
+    position: absolute;
+    inset-block-start: 191px;
+    inset-inline-start: calc(50% - 90px);
+    inline-size: 157px;
+    block-size: 158px;
+    object-fit: cover;
+}
+
+/* adminendgame.html END - - - - - - - - - -*/
+/* regolamentohome.html START - - - - - - - - */
+.regolamento1 {
+    position: relative;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.regolamentohome-wrapperX {
+    position: absolute;
+    inset-block-start: 147px;
+    inset-inline-start: calc(50% - 132.5px);
+    border-radius: 23px;
+    background-color: #ffd23e;
+    block-size: 54px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 31.48px;
+    color: #002651;
+}
+
+.facciamo-un-attimo {
+    position: absolute;
+    inset-block-start: 209px;
+    inset-inline-start: calc(50% - 178.5px);
+    font-size: 10px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffd23e;
+    display: inline-block;
+    inline-size: 356px;
+    block-size: 9px;
+}
+
+.regolamento {
+    inline-size: 100%;
+    position: relative;
+    background-color: #002651;
+    block-size: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 31px;
+    color: #fff;
+    font-family: Gluten;
+}
+
+/*questo */
+.regole-generaliRH {
+    inline-size: 212.8px;
+    position: relative;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    display: inline-block;
+    flex-shrink: 0;
+    color: white !important;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+
+/*questo */
+.regole-generaliRH-wrapper {
+    position: absolute;
+    inset-block-start: 254px;
+    inset-inline-start: calc(50% - 120px);
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    color: white !important;
+
+}
+
+/*questo */
+.elenco-bmcRH {
+    inline-size: 212.8px;
+    position: relative;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    display: inline-block;
+    flex-shrink: 0;
+    color: white !important;
+    text-shadow: 1px 0 0 #000, 0 1px 0 #000, -1px 0 0 #000, 0 -1px 0 #000;
+}
+
+/*questo */
+.elenco-bonusRH-wrapper {
+    position: absolute;
+    inset-block-start: 356px;
+    inset-inline-start: calc(50% - 120px);
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    color: white !important;
+}
+
+/*questo*/
+.elenco-malusRH-wrapper {
+    position: absolute;
+    inset-block-start: 459px;
+    inset-inline-start: calc(50% - 120px);
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    cursor: pointer;
+    color: white !important;
+}
+
+/*questo*/
+.regole-moderatoreRH {
+    inline-size: 260px;
+    position: relative;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    display: inline-block;
+    flex-shrink: 0;
+    color: white !important;
+}
+
+/*questo*/
+.regole-moderatoreRH-wrapper {
+    position: absolute;
+    inset-block-start: 562px;
+    inset-inline-start: calc(50% - 145px);
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    cursor: pointer;
+    color: white !important;
+}
+
+/*questo*/
+.contatti-wrapperRH {
+    position: absolute;
+    inset-block-start: 665px;
+    inset-inline-start: calc(50% - 120px);
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px;
+    cursor: pointer;
+    color: white !important;
+}
+
+/* regolamentohome.html END - - - - - - - - */
+/* listabonus.html START - - - - - - - -  */
+
+.elenco {
+    margin: 0;
+}
+
+.regole-generali {
+    inline-size: 100%;
+    position: relative;
+    background-color: #002651;
+    block-size: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 31px;
+    font-family: Gluten;
+}
+
+.regole-container {
+    align-self: stretch;
+    position: relative;
+    letter-spacing: 0.08em;
+}
+
+.regole-wrapper {
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    box-sizing: border-box;
+    inline-size: 322px;
+    block-size: 1800px;
+    /* questo block-size */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 41px 10px;
+    font-size: 25px;
+    margin-block-start: 248px;
+    margin-inline: auto;
+}
+
+.pagina-wrapper {
+    min-block-size: 2100px;
+    /* block-size scritto in regole-wrapper + 300px */
+    position: relative;
+}
+
+/* item bonus e malus START */
+.item {
+    display: flex;
+    align-items: center;
+    inline-size: 90%;
+    /* 5% margine a sinistra e destra */
+    margin: 0 auto;
+    /* centra il blocco */
+    font-size: 20px;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+
+.item-text {
+    inline-size: 85%;
+}
+
+.item-spacer {
+    inline-size: 5%;
+}
+
+.item-count-bonus {
+    inline-size: 15%;
+    text-align: end;
+    font-weight: bold;
+    color: green;
+    font-size: 24px;
+}
+
+.item-count-malus {
+    inline-size: 10%;
+    text-align: end;
+    font-weight: bold;
+    color: #ea3928;
+    font-size: 24px;
+}
+
+.item-line {
+    inline-size: 75%;
+    block-size: 1px;
+    background-color: #ffd23e;
+    margin: 0 auto 20px auto;
+}
+
+/* item bonus e malus END */
+
+.elenco-bonus-wrapper {
+    position: absolute;
+    inset-block-start: 124px;
+    inset-inline-start: calc(50% - 145px);
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 31px 30px;
+}
+
+.bonus-1 {
+    inline-size: 100%;
+    position: relative;
+    background-color: #002651;
+    block-size: 852px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 31px;
+    color: #fff;
+    font-family: Gluten;
+}
+
+/* listabonus.html END - - - - - - - -  */
+/* regolegenerali.html START - - - - - - - -  */
+.regole-generali-wrapper {
+    position: absolute;
+    inset-block-start: 124px;
+    inset-inline-start: calc(50% - 157px);
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 31px 20px;
+}
+
+.elencoRG {
+    margin: 2px;
+    font-size: 17px;
+    text-align: start;
+    text-transform: none;
+}
+
+.regole-wrapperRG {
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    box-sizing: border-box;
+    inline-size: 322px;
+    block-size: 1350px;
+    /* questo block-size */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 41px 10px;
+    font-size: 25px;
+    margin-block-start: 248px;
+    margin-inline: auto;
+}
+
+.pagina-wrapperRG {
+    min-block-size: 1660px;
+    /* block-size scritto in regole-wrapperRG + 300px */
+    position: relative;
+}
+
+/* regolegenerali.html END - - - - - - - -  */
+/* regoleadmin.html START - - - - - - - -  */
+
+.screenAdmin-class {
+    block-size: 400px;
+    margin-block-end: 10px;
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    box-sizing: border-box;
+    padding: 10px 10px;
+
+}
+
+.regole-wrapperRA {
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    box-sizing: border-box;
+    inline-size: 322px;
+    block-size: 1000px;
+    /* questo block-size */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 41px 10px;
+    font-size: 25px;
+    margin-block-start: 248px;
+    margin-inline: auto;
+}
+
+.pagina-wrapperRA {
+    min-block-size: 1300px;
+    /* block-size scritto in regole-wrapperRA + 300px */
+    position: relative;
+}
+
+/* regoleadmin.html END - - - - - - - -  */
+/* contatti.html START - - - - - - - -  */
+.contatti-title-wrapper {
+    position: absolute;
+    inset-block-start: 124px;
+    inset-inline-start: calc(50% - 107px);
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 31px 30px;
+}
+
+.contatti-wrapper {
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    box-sizing: border-box;
+    inline-size: 322px;
+    block-size: 600px;
+    /* questo block-size */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 41px 10px;
+    font-size: 25px;
+    margin-block-start: 248px;
+    margin-inline: auto;
+    text-transform: uppercase;
+}
+
+.pagina-contatti-wrapper {
+    min-block-size: 900px;
+    /* block-size scritto in regole-wrapper + 300px */
+    position: relative;
+}
+
+.copyright-text {
+    font-size: x-small;
+    margin: 0px;
+}
+
+.box-fondo {
+    position: absolute;
+    inset-block-end: 15px;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
+    margin: 0 auto;
+    inline-size: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* contatti.html END - - - - - - - -  */

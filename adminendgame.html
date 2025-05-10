@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" />
+
+</head>
+
+<body style="background-color: #c9f8fd;">
+
+    <div class="elimina-partita-admin">
+
+        <!-- pulsante per tornare alla adminhome -->
+        <a href="adminhome.html">
+            <img src="img/IconBlue.png" alt="Icona" class="icon">
+        </a>
+
+        <button class="prossimo-turno-wrapper" id="pulsante-conferma">
+            <div class="prossimo-turno">prossimo turno? </div>
+        </button>
+        <img class="image-1-icon-admin" alt="" src="img/pic1.png">
+
+
+        <div class="daje-che-la">daje, che la settimana è andata!</div>
+        <div class="cos-fai-partire">così elimini la partiti e ne fai partire una nuova ;)</div>
+        <div class="o-te-ne">o te ne torni a casa? </div>
+        <div class="ci-mancherai">ci mancherai !!!</div>
+
+    </div>
+
+
+
+
+    <script>
+document.getElementById('pulsante-conferma').addEventListener('click', function() {
+  const primaConferma = confirm("Sei sicuro di voler cancellare tutto del turno appena passato?");
+  
+  if (primaConferma) {
+    const secondaConferma = confirm("Ma sei sicuro sicuro?");
+    
+    if (secondaConferma) {
+      alert("Cancellato tutto!");
+      // qui puoi mettere il codice dell'azione vera e propria
+    } else {
+      alert("Non ho cancellato niente, ti sei salvato in corner");
+    }
+
+  } else {
+    alert("Ok, come non detto, non ho cancellato niente");
+  }
+});
+    </script>
+</body>
+
+</html>

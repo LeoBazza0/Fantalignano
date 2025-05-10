@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, width=device-width">
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" />
+
+
+
+</head>
+
+<body style="background-color: #c9f8fd;">
+
+    <div class="elimina-admingiocatore">
+
+        <!-- pulsante per tornare alla adminhome -->
+        <a href="adminhome.html">
+            <img src="img/IconBlue.png" alt="Icona" class="icon">
+        </a>
+
+        <!-- inserisci giocatore --> <!-- da modificare una volta inserito il codice backend -->
+        <input type="text" id="giocatoreInput" placeholder="inserisci giocatore"
+            class=" inserisci-admingiocatoreEP-wrapper">
+
+        <div class="chi-ti-ha">Chi ti ha rotto i maroni?</div>
+
+        <div class="una-secchiata-sicuro">... una secchiata sicuro se la merita</div>
+
+        <button class="elimina-dai-giochi-wrapper" id="pulsante-conferma">
+            <div class="elimina-dai-giochi">elimina dai giochi</div>
+        </button>
+
+        <img class="angry-icon" alt="" src="img/angry.png">
+        <img class="cone-icon13" alt="" src="img/pigna.png">
+        <img class="cone-icon14" alt="" src="img/pigna.png">
+
+    </div>
+
+
+
+
+
+    <script>
+        document.getElementById('pulsante-conferma').addEventListener('click', function () {
+            const primaConferma = confirm("Sei sicuro di voler eliminare questo giocatore?");
+            if (primaConferma) {
+                alert("fuori dai giochi mascalzone!");
+            } else {
+                alert("Salvato in corner, non è successo niente");
+            }
+        });
+    </script>
+</body>
+
+</html>
