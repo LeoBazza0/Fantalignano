@@ -1411,7 +1411,7 @@ body {
     border: 1px solid #ffd23e;
     box-sizing: border-box;
     inline-size: 322px;
-    block-size: 1350px;
+    block-size: 1400px;
     /* questo block-size */
     display: flex;
     flex-direction: column;
@@ -1424,7 +1424,7 @@ body {
 }
 
 .pagina-wrapperRG {
-    min-block-size: 1660px;
+    min-block-size: 1810px;
     /* block-size scritto in regole-wrapperRG + 300px */
     position: relative;
 }
@@ -1446,7 +1446,7 @@ body {
     border: 1px solid #ffd23e;
     box-sizing: border-box;
     inline-size: 322px;
-    block-size: 1000px;
+    block-size: 1050px;
     /* questo block-size */
     display: flex;
     flex-direction: column;
@@ -1459,7 +1459,7 @@ body {
 }
 
 .pagina-wrapperRA {
-    min-block-size: 1300px;
+    min-block-size: 1350px;
     /* block-size scritto in regole-wrapperRA + 300px */
     position: relative;
 }
