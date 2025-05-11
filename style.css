@@ -147,8 +147,8 @@ body {
 /* - - - - - - - - PIGNE START - - - - - - - -*/
 
 .cone {
-    --scale-factor : 1;
-    --translateX : -50%;
+    --scale-factor: 1;
+    --translateX: -50%;
     --translateY: -50%;
     position: absolute;
     object-fit: contain;
@@ -1268,7 +1268,7 @@ body {
     border: 1px solid #ffd23e;
     box-sizing: border-box;
     inline-size: 322px;
-    block-size: 1800px;
+    block-size: 2000px;
     /* questo block-size */
     display: flex;
     flex-direction: column;
@@ -1281,7 +1281,30 @@ body {
 }
 
 .pagina-wrapper {
-    min-block-size: 2100px;
+    min-block-size: 2300px;
+    /* block-size scritto in regole-wrapper + 300px */
+    position: relative;
+}
+
+.regole-wrapper-malus {
+    border-radius: 22px;
+    border: 1px solid #ffd23e;
+    box-sizing: border-box;
+    inline-size: 322px;
+    block-size: 1600px;
+    /* questo block-size */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 41px 10px;
+    font-size: 25px;
+    margin-block-start: 248px;
+    margin-inline: auto;
+}
+
+.pagina-wrapper-malus {
+    min-block-size: 1900px;
     /* block-size scritto in regole-wrapper + 300px */
     position: relative;
 }
@@ -1291,9 +1314,7 @@ body {
     display: flex;
     align-items: center;
     inline-size: 90%;
-    /* 5% margine a sinistra e destra */
     margin: 0 auto;
-    /* centra il blocco */
     font-size: 20px;
     padding: 10px 0;
     box-sizing: border-box;
@@ -1305,6 +1326,10 @@ body {
 
 .item-spacer {
     inline-size: 5%;
+}
+
+.item-spacer-sm {
+    inline-size: 0%;
 }
 
 .item-count-bonus {
