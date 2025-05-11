@@ -1,17 +1,29 @@
+html,
 body {
-    block-size: 100%;
+    min-height: 100%;
+    min-width: 100%;
+    overflow-x: hidden;
+}
 
-    margin: 0;
+a {
+    text-decoration: none;
+}
+
+body {
+    position: relative;
     line-height: normal;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    margin: 0;
     padding: 0;
-    min-block-size: 100%;
     overflow-y: auto;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 /* font1 UE BOSS */
 @font-face {
@@ -62,158 +74,129 @@ body {
     overflow: hidden;
 }
 
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: transparent;
+}
+
 /* index.html START - - - - - - - - - - - - - - */
 .pic1-position {
-    position: absolute;
-    inset-block-start: 233px;
-    inset-inline-start: calc(50% - 55px);
     inline-size: 144.7px;
     block-size: 220px;
     object-fit: cover;
 }
 
+
 /* entra come moderatore */
 .ecm {
-    position: relative;
     text-transform: lowercase;
     font-weight: 600;
 }
 
 /* entra come moderatore */
 .ecm-wrapper {
-    position: absolute;
-    inset-block-start: 462px;
-    inset-inline-start: calc(50% - 116px);
     border-radius: 22.02px;
     border: 3px solid #1071ce;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
     padding: 6.5px 21.4px;
-    cursor: pointer;
-    background-color: transparent;
     font-size: 15px;
 }
 
 .regolamento-wrapper {
-    position: absolute;
-    inset-block-start: 515px;
-    inset-inline-start: calc(50% - 111.5px);
     border-radius: 31.51px;
     border: 3px solid #1071ce;
     background-color: #1071ce;
-    color: white !important;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
+    color: white;
     padding: 9.3px 30.6px;
-    cursor: pointer;
     font-size: 23.9px;
-    cursor: pointer;
     text-transform: lowercase;
     font-weight: 600;
 }
 
 .partita {
-    position: absolute;
-    inset-block-start: 16px;
-    inset-inline-start: 47px;
     text-transform: uppercase;
     font-weight: 600;
 }
 
 .partita-wrapper {
-    position: absolute;
-    inset-block-start: 585px;
-    inset-inline-start: calc(50% - 136.92px);
     border-radius: 54.17px;
     background-color: #ffd23e;
     border: 3px solid #ffd23e;
-    box-sizing: border-box;
-    inline-size: 275px;
-    block-size: 94px;
-    cursor: pointer;
+    padding: 15.3px 40.6px;
     font-size: 41.1px;
     color: #ea3928;
 }
 
 .benvenuto-al-text {
-    position: absolute;
-    inset-block-start: 130.08px;
     align-items: center;
-    inline-size: 236.9px;
-    block-size: 18.6px;
     color: #002651;
     font-size: 25px;
+    text-align: center;
+    margin: 0;
 }
 
 .image-1-icon {
-    position: absolute;
-    inset-block-start: 159px;
     align-items: center;
-    inline-size: 272px;
-    block-size: 90px;
     object-fit: cover;
 }
 
 /* - - - - - - - - PIGNE START - - - - - - - -*/
 
+.cone {
+    --scale-factor : 1;
+    --translateX : -50%;
+    --translateY: -50%;
+    position: absolute;
+    object-fit: contain;
+    width: clamp(7rem, 0.714rem + 21.429vw, 20rem);
+    transform: translate(var(--translateX), var(--translateY)) scale(var(--scale-factor));
+    z-index: -1;
+}
+
 /*index*/
 .cone-icon0 {
-    position: absolute;
-    inset-block-start: -49px;
-    inset-inline-start: -5px;
-    inline-size: 151.3px;
-    block-size: 133.9px;
-    object-fit: contain;
+    top: 5%;
+    left: 0%;
+    --translateX: -5%;
 }
 
 .cone-icon1 {
-    position: absolute;
-    inset-block-start: -52px;
-    inset-inline-end: -40px;
-    inline-size: 179.2px;
-    block-size: 193px;
-    object-fit: contain;
+    top: 5%;
+    left: 100%;
+    --translateX: -65%;
 }
 
 .cone-icon2 {
-    position: absolute;
-    inset-block-start: 281.22px;
-    inset-inline-start: -87.19px;
-    inline-size: 204.7px;
-    block-size: 159.8px;
-    object-fit: contain;
+    top: 50%;
+    left: 0%;
+    --scale-factor: 1.2;
 }
 
 .cone-icon3 {
-    position: absolute;
-    inset-block-end: -64px;
-    inset-inline-start: -48px;
-    inline-size: 215.9px;
-    block-size: 216.3px;
-    object-fit: contain;
+    top: 50%;
+    left: 100%;
+    --scale-factor: 0.8
 }
 
 .cone-icon4 {
-    position: absolute;
-    inset-block-end: -85px;
-    inset-inline-end: -30px;
-    inline-size: 162.5px;
-    block-size: 163.6px;
-    object-fit: contain;
+    left: 0%;
+    top: 95%;
+    --scale-factor: 2;
+    --translateX: -15%;
 }
 
 .cone-icon5 {
-    position: absolute;
-    inset-block-start: 332px;
-    inset-inline-end: -30px;
-    inline-size: 118.7px;
-    block-size: 105.9px;
-    object-fit: contain;
+    top: 95%;
+    left: 100%;
+    --scale-factor: 1.6;
+    --translateX: -65%;
+    --translateY: -35%;
 }
+
 
 /*classifica*/
 .cone-icon6 {
@@ -303,9 +286,6 @@ body {
 /* - - - - - - - - PIGNE END - - - - - - - -*/
 
 .a-tuo-rischio {
-    position: absolute;
-    inset-block-start: 685px;
-    inset-inline-start: calc(50%- 40px);
     font-size: 9.62px;
     text-transform: lowercase;
     color: #000;
