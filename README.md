@@ -26,11 +26,8 @@
 per capire la dimensione: non vedo contatti in regolamento.html
 1. mettere le pigne orientate giuste
 6. fare il bottone di aggiungi giocatore in classifica.html lungo tutto 
-7. modificare la font-size e il colore del placeholder di aggiungi giocatore in classifica.html 
-8. password.html sistemare il bottone/scritta in basso
 9. alzare tutto quello che è in basso perché non si vede causa barra di ricerca in basso
-10. sistemare i <div> delle regole, far si che siano attorno a quello che c'è scritto dentro a prescindere dalla dimensione
-11. ordinare i bonus e i malus in ordine
+10. sistemare i <div> delle regole, far si che siano attorno a quello che c'è scritto dentro a prescindere dalla dimensione CIRCA FATTO
 
 
 # Pagine fatte e finite
