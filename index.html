@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html>
 
 <head>
     <meta charset="utf-8">
@@ -10,41 +10,47 @@
 
 </head>
 
-<body style="background-color: #c9f8fd;">
+<body class="flex-container" style="height: 100vh; background-color: #c9f8fd; overflow-y: hidden;">
 
-    <img class="pic1-position" alt="" src="img/pic1.png">
+    <header class="flex-container" style="margin-top: 5vh;">
+        <div> 
+            <h1 class="benvenuto-al-text font1">
+                Benvenuto al
+            </h1>
+            <img class="image-1-icon" src="img/logo1.png">
+        </div>
 
-    <form action="password.html">
-        <button type="submit" class="ecm ecm-wrapper color1 
-            font2"> entra come moderatore </button>
-    </form>
+        <img class="pic1-position" alt="" src="img/pic1.png">
+    </header>
 
-    <form action="regolamentohome.html">
-        <button type="submit" class="regolamento-wrapper color1 font2"> regolamento </button>
-    </form>
+    <main class="flex-container" style="gap: 14px;">
+        <a href="password.html" class="button ecm-wrapper color1 font2">
+            <span class="ecm">entra come moderatore</span>
+        </a>
 
-    <form action="classifica.html">
-        <button type="submit" class="partita partita-wrapper font2"> partita </button>
-    </form>
+        <a href="regolamentohome.html" class="button regolamento-wrapper color1 font2">
+            <span>regolamento</span>
+        </a>
 
+        <a href="classifica.html" class="button partita-wrapper font2">
+            <span class="partita">partita</span>
+        </a>
+    </main>
 
-    <div class="benvenuto-al-text font1 ">Benvenuto al</div>
-    <img class="image-1-icon" src="img/logo1.png">
+    <footer class="flex-container" style="margin-top: 0.5rem; margin-bottom: 15vh;">
+        <b class="a-tuo-rischio font2"> a tuo rischio e pericolo!  </b>
+        <img class="mingcutecopyright-line-icon" alt="" src="mingcute:copyright-line.svg">
+    </footer>
 
     <!-- pigne -->
-    <img class="cone-icon0" alt="" src="img/pigna.png">
-    <img class="cone-icon1" alt="" src="img/pigna.png">
-    <img class="cone-icon2" alt="" src="img/pigna.png">
-    <img class="cone-icon3" alt="" src="img/pigna.png"> <!-- se heigh < tot px allora non mettere questa -->
-    <img class="cone-icon4" alt="" src="img/pigna.png"> <!-- se heigh < tot px allora non mettere questa -->
-    <img class="cone-icon5" alt="" src="img/pigna.png">
+    <img class="cone cone-icon0" alt="" src="img/pigna.png">
+    <img class="cone cone-icon1" alt="" src="img/pigna.png">
+    <img class="cone cone-icon2" alt="" src="img/pigna.png">
+    <img class="cone cone-icon3" alt="" src="img/pigna.png">
+    <img class="cone cone-icon4" alt="" src="img/pigna.png">
+    <img class="cone cone-icon5" alt="" src="img/pigna.png">
 
 
-    <b class="a-tuo-rischio font2"> a tuo rischio e pericolo! </b>
-    <img class="mingcutecopyright-line-icon" alt="" src="mingcute:copyright-line.svg">
-
-
-    </div>
 </body>
 
 </html>
