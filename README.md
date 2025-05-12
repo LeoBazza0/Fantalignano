@@ -21,6 +21,7 @@
 1. perché se metto come classe del <body> il font poi dentro non funziona? BAH
 2. perché non mi fa scorrere sulla pagina in su e giù? CRISTACCIO (problema trovato in classifica.html che non mi fa mettere il pulsante sotto l'altro a prescindere)
 3. completamente a caso perché in password.html se stringo diventa tutto piccolo PuTtAnAcCiA dI uNa
+4. perché certi caratteri con internet funzionano e con altri no? BAH
 
 # TODO
 per capire la dimensione: non vedo contatti in regolamento.html
