@@ -27,6 +27,7 @@
 per capire la dimensione: non vedo contatti in regolamento.html
 9. alzare tutto quello che è in basso perché non si vede causa barra di ricerca in basso (credo manchi solo la partedi modifica bonus modifica malus)
 10. sistemare i <div> delle regole, far si che siano attorno a quello che c'è scritto dentro a prescindere dalla dimensione CIRCA FATTO
+11. mettere la scritta dei copyright in index.html
 
 
 # Pagine fatte e finite
