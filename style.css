@@ -737,6 +737,8 @@ body {
     cursor: pointer;
     font-size: 22.79px;
     color: #ffffff;
+    z-index: 9999;
+
 }
 
 /* adminhome.html END - - - - - - - - - */
