@@ -696,6 +696,49 @@ body {
     font-family: Poppins;
 }
 
+.icon-wrapper-info {
+    position: absolute;
+    top: 45px;
+    right: 40px;
+}
+
+.icon-wrapper-info svg {
+    block-size: 70px;
+    inline-size: 50px;
+}
+
+.infobox {
+    position: absolute;
+    inset-block-start: 350px;
+    inset-inline-start: calc(50% - 195px);
+    text-transform: lowercase;
+    font-weight: 600;
+}
+
+.whatsapp {
+    position: relative;
+    font-weight: 600;
+}
+
+.whatsapp-wrapper {
+    position: absolute;
+    inset-block-start: 426px;
+    inset-inline-start: calc(50% - 148.5px);
+    border-radius: 34px;
+    background-color: #25d366;
+    border: 5px solid #fdfdfd;
+    box-sizing: border-box;
+    inline-size: 297px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 1px;
+    cursor: pointer;
+    font-size: 22.79px;
+    color: #ffffff;
+}
+
 /* adminhome.html END - - - - - - - - - */
 /* adminbonus.html END - - - - - - - - - -*/
 
@@ -1288,7 +1331,7 @@ body {
     border: 1px solid #ffd23e;
     box-sizing: border-box;
     inline-size: 322px;
-    block-size: 2000px;
+    block-size: 2100px;
     /* questo block-size */
     display: flex;
     flex-direction: column;
@@ -1301,7 +1344,7 @@ body {
 }
 
 .pagina-wrapper {
-    min-block-size: 2300px;
+    min-block-size: 2400px;
     /* block-size scritto in regole-wrapper + 300px */
     position: relative;
 }
