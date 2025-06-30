@@ -391,6 +391,8 @@ body {
     inline-size: 100%;
     block-size: 39px;
     margin-block-start: 5px;
+    padding-block-start: 3px;
+    font-size: medium;
 }
 
 .punticaselle {
@@ -718,7 +720,6 @@ body {
 
 .whatsapp {
     position: relative;
-    font-weight: 600;
 }
 
 .whatsapp-wrapper {
@@ -739,7 +740,26 @@ body {
     font-size: 22.79px;
     color: #ffffff;
     z-index: 9999;
+}
 
+.whatsapp-wrapper2 {
+    position: absolute;
+    inset-block-start: 426px;
+    inset-inline-start: calc(50% - 148.5px);
+    border-radius: 34px;
+    background-color: #25d366;
+    border: 5px solid #fdfdfd;
+    box-sizing: border-box;
+    inline-size: 297px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0px 10px 1px;
+    cursor: pointer;
+    font-size: 20px;
+    color: #ffffff;
+    z-index: 9999;
 }
 
 /* adminhome.html END - - - - - - - - - */
@@ -1477,7 +1497,7 @@ body {
     border: 1px solid #ffd23e;
     box-sizing: border-box;
     inline-size: 322px;
-    block-size: 1400px;
+    block-size: 1350px;
     /* questo block-size */
     display: flex;
     flex-direction: column;
@@ -1490,7 +1510,7 @@ body {
 }
 
 .pagina-wrapperRG {
-    min-block-size: 1810px;
+    min-block-size: 1650px;
     /* block-size scritto in regole-wrapperRG + 300px */
     position: relative;
 }
